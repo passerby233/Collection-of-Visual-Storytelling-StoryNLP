@@ -1,18 +1,21 @@
-# Collection-of-Visual-Storytelling-StoryNLP
+# Collections-of-Visual-Storytelling-StoryNLP
 This repository aims to collect the articles and codes for the Visual Storytelling (VIST) task. VIST is a vision-and-language task. It aims to summarize the idea of a photo stream and tells a story about it (in natural language). Be careful about its difference from the "storytelling with data", which is more related to data visualization.
 
 ### [Visual Storytelling Task Website ←](http://www.visionandlanguage.net/workshop2019/)
 More introduction and examples are shown in the site.
 
 ### [Dataset Website ←](http://visionandlanguage.net/VIST/)
-Google Drive archived(313GB in total). If you have no access to google drive, maybe you should contact authors in your area for help. 
+Google Drive archived (313GB in total). If you have no access to google drive, maybe you should contact authors engaging in this task in your area for help. 
+
+----
 
 ### 2020
 Title|Venue|Type|Code|Star
 :--:|:--:|:--:|:--:|:--:
-[Knowledge-Enriched Visual Storytelling](https://doi.org/10.1609/aaai.v34i05.6303)|AAAI20|KG|[Pytorch1.3](https://github.com/zychen423/KE-VIST)|17+ 
+[Knowledge-Enriched Visual Storytelling](https://doi.org/10.1609/aaai.v34i05.6303)|AAAI20|KG|[Pytorch1.3](https://github.com/zychen423/KE-VIST)|17+| 
 [What Makes A Good Story? Designing Composite Rewards for Visual Storytelling](https://doi.org/10.1609/aaai.v34i05.6305)|AAAI20|RL| | 
 [Hide-and-Tell: Learning to Bridge Photo Streams for Visual Storytelling](https://aaai.org/ojs/index.php/AAAI/article/view/6780)|AAAI20|En\Decoder| | 
+[Storytelling from an Image Stream Using Scene Graphs](https://aaai.org/ojs/index.php/AAAI/article/view/6455)|AAAI20|SceneGraph| | 
 [Topic Adaptation and Prototype Encoding for Few-Shot Visual Storytelling](https://dl.acm.org/doi/10.1145/3394171.3413886)|ACMMM20|Few-Shot| | 
 
 ### 2019
@@ -44,7 +47,7 @@ Title|Venue|Type|Code|Star
 [Contextualize, Show and Tell: A Neural Visual Storyteller](https://arxiv.org/abs/1806.00738)|NAACL18 StoryNLP workshop|En\Decoder|[Tensorflow1.0](https://github.com/dianaglzrico/neural-visual-storyteller)|21+
 [A Pipeline for Creative Visual Storytelling](https://arxiv.org/abs/1807.08077)|NAACL18 StoryNLP workshop|Other| | 
 [Stories for Images-in-Sequence by using Visualand Narrative Components](https://arxiv.org/abs/1805.05622)| ICTI18|En\Decoder|[Tensorflow1.6](https://github.com/Pendulibrium/ai-visual-storytelling-seq2seq)|34+
-En
+
 ### 2016-2017
 Title|Venue|Type|Code|Star
 :--:|:--:|:--:|:--:|:--:
