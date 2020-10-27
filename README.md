@@ -7,6 +7,16 @@ More introduction and examples are shown in the site.
 ### [Dataset Website ←](http://visionandlanguage.net/VIST/)
 Google Drive archived (313GB in total). If you have no access to google drive, maybe you should contact authors engaging in this task in your area for help. 
 
+#### Useful Tool: 
+To evaluate the generated story, metrics like BLEU, CIDEr, METEOR, ROUGE are most common used.
+
+Evaluation Metrics Implementation: [vist eval](https://github.com/lichengunc/vist_eval).It works with [vist api](https://github.com/lichengunc/vist_api)
+
+The task also needs human evaluation, usually in prespective of "Relevance", "Expressiveness" and "Concreteness", taking AREL(No Metrics Are Perfect, ACL 18) as a referebce.
+
+
+- Please feel free to pull requests or open an issue to add papers.
+
 ----
 
 ### 2020
@@ -24,7 +34,7 @@ Title|Venue|Type|Code|Star
 [Visual Story Post-Editing](https://www.aclweb.org/anthology/P19-1658/)|ACL19|Post-Editing|[Dataset](https://github.com/tingyaohsu/VIST-Edit)|10+ 
 [Hierarchically Structured Reinforcement Learning for Topically Coherent Visual Story Generation](https://aaai.org/ojs/index.php/AAAI/article/view/4863)|AAAI19|RL| | 
 [Hierarchical Photo-Scene Encoder for Album Storytelling](https://aaai.org/ojs/index.php/AAAI/article/view/4918)|AAAI19|En\Decoder| | 
-[Informative Visual Storytelling with Cross-modal Rules](https://dl.acm.org/doi/10.1145/3343031.3350918)|ACMMM19|ATT|[Pytorch0.3](https://github.com/passerby233/VSCMR-Visual-Storytelling-with-Corss-Modal-Rules)|3
+[Informative Visual Storytelling with Cross-modal Rules](https://dl.acm.org/doi/10.1145/3343031.3350918)|ACMMM19|ATT|[Pytorch 0.3](https://github.com/passerby233/VSCMR-Visual-Storytelling-with-Corss-Modal-Rules)|3
 [Knowledgeable Storyteller: A Commonsense-Driven Generative Model for Visual Storytelling](https://www.ijcai.org/Proceedings/2019/744)|IJCAI19|KG|[No Source](https://github.com/lancopku/CVST)|7+ 
 [Emotion Reinforced Visual Storytelling](https://dl.acm.org/doi/10.1145/3323873.3325050)|ICMR19|RL|Other| |
 [Dixit: Interactive Visual Storytelling via Term Manipulation](https://dl.acm.org/doi/10.1145/3308558.3314131)|WWW19|Other| | 
@@ -39,7 +49,7 @@ Title|Venue|Type|Code|Star
 ### 2018
 Title|Venue|Type|Code|Star
 :--:|:--:|:--:|:--:|:--:
-[No Metrics Are Perfect: Adversarial Reward Learning for Visual Storytelling](https://www.aclweb.org/anthology/P18-1083/)|ACL18|RL|[Pytorch0.3](https://github.com/eric-xw/AREL) | 117+
+[No Metrics Are Perfect: Adversarial Reward Learning for Visual Storytelling](https://www.aclweb.org/anthology/P18-1083/)|ACL18|RL|[Pytorch 0.3](https://github.com/eric-xw/AREL) | 117+
 [Show, Reward and Tell: Automatic Generation of Narrative Paragraph From Photo Stream by Adversarial Training](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17049)|AAAI18|RL| | 
 [Using Inter-Sentence Diverse Beam Search to Reduce Redundancy in Visual Storytelling](https://arxiv.org/abs/1805.11867)|NAACL18 StoryNLP workshop|BS| | 
 [Adversarial Learning for Visual Storytelling with Sense Group Partition](https://link.springer.com/chapter/10.1007%2F978-3-030-20870-7_11)|ACCV18|RL| |
