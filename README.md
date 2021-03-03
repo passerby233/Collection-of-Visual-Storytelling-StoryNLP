@@ -18,6 +18,11 @@ The task also needs human evaluation, usually in prespective of "Relevance", "Ex
 - Please feel free to pull requests or open an issue to add papers.
 
 ----
+### 2021
+Title|Venue|Type|Code|Star
+:--:|:--:|:--:|:--:|:--:
+[Commonsense Knowledge Aware Concept Selection For Diverse and Informative Visual Storytelling](https://arxiv.org/abs/2102.02963)|AAAI21|KG| |
+[Imagine,Reason and Write: Visual Storytelling with Graph Knowledge and Relational Reasoning] |AAAI21|KG+SG|
 
 ### 2020
 Title|Venue|Type|Code|Star
